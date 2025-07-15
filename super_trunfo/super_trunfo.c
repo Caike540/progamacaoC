@@ -5,7 +5,7 @@ int main(){
     char estado1 = 'A';
     char codigo1[50] = "A01";
     char nome1[40] = "Resende";
-    int populacao1 = 27658;
+    int populacao1 = 27394;
     float area1 = 1225.56;
     float pib1 = 34.93;
     int turistico1 = 30;
