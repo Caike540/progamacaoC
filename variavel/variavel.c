@@ -16,4 +16,6 @@ int main(){
     printf("Digite a opção: ");
     scanf(" %c", &opcao);
     printf("A opção é: %c\n", opcao);
+
+    return 0;
 }
