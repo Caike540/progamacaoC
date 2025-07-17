@@ -1,16 +1,17 @@
 #include <stdio.h>;
 
 int main(){
-    int numero1;
-    int numero2;
+    int numero = 10;
+    int resultado;
 
-    numero1 = 10;
-    numero2 = 10;
+    resultado = numero % 2;
 
-    if (numero1 >= numero2){
-        printf("O número 1 é maior ou igual ao número 2\n");
-    }else {
-        printf("O número 1 é menor que o número 2\n");
+    printf("O resultado é %d\n", resultado);
+
+    if (resultado == 0) {
+        printf("O número é par\n");
+    } else {
+        printf("O número é ímpar\n");
     }
 
     return 0;
